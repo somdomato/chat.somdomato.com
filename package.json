@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node ./dev-server.js",
-    "build": "parcel build"
+    "build": "parcel build && cp ./config.json ./dist"
   },
   "private": true,
   "targets": {
