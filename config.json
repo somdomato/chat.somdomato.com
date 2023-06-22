@@ -1,0 +1,16 @@
+{
+	"server": {
+		"url": "wss://irc.somdomato.com",
+		"autojoin": "#somdomato",
+		"auth": "optional",
+		"nick": "{Ouvinte_*}",
+		"autoconnect": true,
+		"ping": 60
+	},
+	"oauth2": {
+		"url": "https://auth.example.org",
+		"client_id": "asdf",
+		"client_secret": "ghjk",
+		"scope": "profile"
+	}
+}

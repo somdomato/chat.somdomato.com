@@ -207,9 +207,9 @@ export default class Composer extends Component {
 			className = "read-only";
 		}
 
-		let placeholder = "Type a message";
+		let placeholder = "Digite uma mensagem (digite /nick apelido para mudar seu apelido)";
 		if (this.props.commandOnly) {
-			placeholder = "Type a command (see /help)";
+			placeholder = "Digite um comando (digite /help para ver os comandos possíveis)";
 		}
 
 		return html`

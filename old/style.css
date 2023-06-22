@@ -1,24 +1,43 @@
 :root {
-	--main-background: #212529;
-	--main-color: #f8f9fa;
-	--sidebar-background: #131618;
-	--expander-background: #424446;
-	--expander-background-hover: #2a2d2f;
+	--main-background: white;
+	--main-color: black;
+	--sidebar-background: #e3e3e3;
+	--expander-background: #b5b5b5;
+	--expander-background-hover: #a6a6a6;
 	--expander-border: #6c6c6c;
 
 	--button-color: #eff7ef;
-	--button-background: #282879;
+	--button-background: #545499;
 	--button-background-hover: #00007C;
-	--button-border: #131618;
+	--button-border: #e3e3e3;
 
 	--danger-button-color: #eff7ef;
-	--danger-button-background: #B20000;
-	--danger-button-background-hover: red;
-	--danger-button-border: #131618;
+	--danger-button-background: #db2626;
+	--danger-button-background-hover: #B20000;
+	--danger-button-border: #e3e3e3;
 
-	--green: #53b266;
-	--gray: #979797;
-	--red: #fb615b;
+	--green: green;
+	--gray: #4a4a4a;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--main-background: #212529;
+		--main-color: #f8f9fa;
+		--sidebar-background: #131618;
+		--expander-background: #424446;
+		--expander-background-hover: #2a2d2f;
+		--button-background: #282879;
+		--button-background-hover: #00007C;
+		--button-border: #131618;
+		--danger-button-background: #B20000;
+		--danger-button-background-hover: red;
+		--danger-button-border: #131618;
+		--green: #53b266;
+		--gray: #979797;
+
+		--red: #fb615b;
+	}
 }
 
 html {
